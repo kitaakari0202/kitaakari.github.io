@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+    background-color: #b8d2e1;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+#weblink{
+    width: 50%;
+    height: 3%;
+
+    margin-left: 50%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 25px;
+    margin-top: 0%;
+    background-color: #8c98b2;
+    
+}
+#strt{
+    margin-top: 25px;
+}
+#kitaakari{
+    margin-top: -80pX;
+    color: aliceblue;
+}
+#syoukai{
+    margin-top: -80px;
+}
+#like{
+    margin-top: -80px;
+    margin-left: 50px;
+}
+#main{
+    margin-top: 25px;
+}
+#imgs{
+    margin-left: 5%;
+    padding-top: 10px;
+    width: 90%;
+    height: 100%;
+    background-color:#ffffff;
+}
+
+#blogleft{
+    padding: 5px;
+    background-color:#ededed;
+    margin-left: 20%;
+    width: 25%;
+    height: 20%;
+}
+#blogright{
+    padding: 5px;
+    background-color:#ededed;
+    margin-left: 55%;
+    margin-top: -20%;
+    width: 25%;
+    height: 20%;
+    top: 0;
+}
