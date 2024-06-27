@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.container{
+    position: fixed;
+    top: 0px;
+    left: 0; 
+    width: 100%;
+    aspect-ratio: 5/2;
+    position: relative;
+    z-index: -5;
+  }
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-size: cover;
+    background-position: center center;
+    
+    animation: image-switch-animation 20s infinite;
+  }
+  .baner1{
+    background-image:url(baner1.png)
+  }
+  .baner2{
+    background-image: url(baner2.png);
+  }
+  @keyframes image-switch-animation {
+    0%{ opacity: 0;}
+    5%{ opacity: 1;}
+    30%{ opacity: 1;}
+    50%{opacity: 1;}
+    55%{opacity: 0;}
+    100%{ opacity: 0;}
+  }
+    
+  .image:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  .image:nth-of-type(2) {
+    animation-delay: 10s;
+  }
