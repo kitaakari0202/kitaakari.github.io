@@ -6,6 +6,7 @@ body{
     margin-top: 0%;
 }
 #weblink{
+    margin-top: -15px;
     width: 50%;
     height: 3%;
 
@@ -90,7 +91,7 @@ h5{
     background-color:#ededed;
     padding-top: 0.5%;
     width: 50%;
-    height: 100px;
+    aspect-ratio: 14/3
 }
 
 @charset "UTF-8";
