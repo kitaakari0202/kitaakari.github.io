@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.mainbox1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    aspect-ratio: 4/6;
+    background-color: rgba(0, 255, 255, 0.439);
+    margin-bottom: -1%;
+}
+.taitoletag{
+  /* width: 100%;
+    aspect-ratio: 4/3;
+    background-color: rgba(255, 0, 0, 0.477);
+    わからん*/
+}

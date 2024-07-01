@@ -1,6 +1,9 @@
 @charset "UTF-8";
 body{
+    background-image: url(BACK.jpg);
     background-color: #b8d2e1;
+    background-size: 100%;
+    background-repeat: repeat-y;
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
@@ -24,6 +27,9 @@ header{
     font-family: serif;
     
 }
+h5{
+    font-family:ＭＳ ゴシック;
+}
 #strt{
     margin-top: 25px;
 }
@@ -32,17 +38,6 @@ header{
     color: aliceblue;
     width: 100%;
     height: 25%;
-}
-#syoukai{
-   float: left;
-    width: 40%;
-    height: 30%;
-    text-align: right;
-    background-color: #9eabc7;
-    margin-left: 60%;
-    font-family: ＭＳ Ｐ明朝;
-    line-height: 130%;
-    font-size: 100%;
 }
 #like{
     margin-top: -80px;
@@ -76,23 +71,54 @@ header{
     height: 20%;
     top: 0;
 }
-h5{
-    font-family:ＭＳ ゴシック;
+.piclist{
+   display: flex;
+
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0.5%;
+    width:43.5%;
+    aspect-ratio: 15/3;
 }
-#likebox{
+
+.syoukai{
+    margin-left: 25%;
+  right: 0;
+    width: 30%;
+    aspect-ratio: 16/3;
+
+    object-fit: cover;
+    padding-top: 5%;
+}
+.picimg{
+    width: 80%;
+}
+.syoukaitxt{
+    width:fit-content
+    font-family: ＭＳ Ｐ明朝;
+    line-height: 130%;
+    font-size: 100%;
+    text-align: right;
+    vertical-align:bottom;
+    bottom: fit-content;
+}
+.seiretu1{
+    aspect-ratio: 14:8;
+    width: 100%;
+    display:flex;
+
+    margin-top: -2%;
+}
+.likebox{
     width: 40%;
     height: 30%;
     margin-top: 0%;
-    background-color: #9eabc7;
+    background-color: rgba(210, 221, 226, 0.626);
+    /*background-color: #9eabc7;*/
     margin-left: 0;
 }
-#piclist{
-    float: left;
-    background-color:#ededed;
-    padding-top: 0.5%;
-    width: 50%;
-    aspect-ratio: 14/3
-}
+
 
 
 .container{
@@ -117,10 +143,10 @@ h5{
     animation: image-switch-animation 20s infinite;
   }
   .baner1{
-    background-image:url(baner1.png)
+    background-image:url(baner1.jpg);
   }
   .baner2{
-    background-image: url(baner2.png);
+    background-image: url(baner2.jpg);
   }
   @keyframes image-switch-animation {
     0%{ opacity: 0;}
